@@ -9,19 +9,19 @@ A Python script to load a specified amount of random documents into specified co
   `$ pip install -r requirements.txt`
 - Update the environment variables to match the Capella cluster to import the data into
 
-  > DB_HOST=<couchbase-wan>
+  > DB_HOST= couchbase-wan
 
-  > DB_USER=<db-user>
+  > DB_USER= db-user
 
-  > DB_PASS=<db-password>
+  > DB_PASS= db-password
 
-  > BUCKET=<bucket-to-import>
+  > BUCKET= bucket-to-import
 
-  > SCOPE=<scope-to-import>
+  > SCOPE= scope-to-import
 
-  > DATA_DIR=<path-to-travel-sample/docs>
+  > DATA_DIR= path-to-travel-sample/docs
 
-  > DB_DATA_NODE=<srv-record-of-data-node>
+  > DB_DATA_NODE= srv-record-of-data-node
 
 - Run the script
   `$ python import_data.py`
