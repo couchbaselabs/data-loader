@@ -24,6 +24,7 @@ A Python script to load a specified amount of random documents into specified co
   > DB_DATA_NODE= srv-record-of-data-node
 
 - Run the script
+
   `$ python import_data.py`
 
 ## Configuring the Data to Import
