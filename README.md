@@ -31,6 +31,9 @@ A Python script to load a specified amount of random documents into specified co
 > > ]
 
 NO_OF_SAMPLES: Documents to be sampled to import into collection
+
 IMPORT_MATRIX: Key-Value pair of the collection along with the pattern to find the docs (filename-prefix)
-The collection refers to the collection in which to import the json documents matching the prefix in the DATA_DIR.
-The prefix for airline documents is inventory.airline.\*.json). Example: travel-sample/docs/inventory.airline.airline_10.json.
+
+- The collection refers to the collection in which to import the json documents matching the prefix in the DATA_DIR.
+- The prefix for airline documents is inventory.airline.\*.json).
+  Example: travel-sample/docs/inventory.airline.airline_10.json.
