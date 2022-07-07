@@ -2,6 +2,10 @@
 
 A Python script to load a specified amount of random documents into specified collections from the travel-sample dataset using the Couchbase Python SDK.
 
+It creates the collections if they do not exist. It also creates the primary index.
+
+Tested on Python 3.9.
+
 ## Running the Script
 
 - Download the travel-sample dataset from the [github repo](https://github.com/couchbase/docloader/blob/master/examples/travel-sample.zip) and extract it to the local folder (script_folder/travel-sample).
