@@ -13,7 +13,7 @@ Tested on Python 3.9.
 
   `$ pip install -r requirements.txt`
 
-- Update the environment variables to match the Capella cluster to import the data into
+- Update the environment variables to match the Capella cluster to import the data into by creating a copy of [.env.example](.env.example) file and renaming it to `.env`
 
   > DB_HOST= couchbase-wan
 
