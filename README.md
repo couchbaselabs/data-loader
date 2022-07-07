@@ -6,7 +6,9 @@ A Python script to load a specified amount of random documents into specified co
 
 - Download the travel-sample dataset from the [github repo](https://github.com/couchbase/docloader/blob/master/examples/travel-sample.zip) and extract it to the local folder (script_folder/travel-sample).
 - Install the requirements
+
   `$ pip install -r requirements.txt`
+
 - Update the environment variables to match the Capella cluster to import the data into
 
   > DB_HOST= couchbase-wan
