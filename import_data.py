@@ -124,7 +124,7 @@ for data_import in IMPORT_MATRIX:
     # Lots of examples are using airline_10. So add it even if it is not there in the sampling
     if collection == "airline":
         files.append(
-            pathlib.Path("travel-sample/docs/inventory.airline.airline_10.json")
+            pathlib.Path(f"{data_directory}/inventory.airline.airline_10.json")
         )
 
     docs_to_load = {}
@@ -140,7 +140,7 @@ for data_import in IMPORT_MATRIX:
             #     print(f"Exception while inserting document, {e}")
 
     # Insert Documents in Bulk
-    print(f"{len(files)=} {len(docs_to_load)=}")
+    # print(f"{len(files)=} {len(docs_to_load)=}")
     try:
         res = cb_coll.upsert_multi(docs_to_load)
     except Exception as e:
