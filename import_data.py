@@ -125,6 +125,9 @@ for data_import in IMPORT_MATRIX:
     if collection == "airline":
         files.append(
             pathlib.Path(f"{data_directory}/inventory.airline.airline_10.json")
+        ),
+        files.append(
+            pathlib.Path(f"{data_directory}/inventory.airline.airline_5209.json")
         )
 
     docs_to_load = {}
